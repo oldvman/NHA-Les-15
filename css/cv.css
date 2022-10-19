@@ -1,0 +1,201 @@
+/* css voor nha-les15 */
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  height: auto;
+  padding: 5px;
+}
+
+footer {
+  background-color: white;
+  padding: 5px;
+}
+
+h1 {
+  font-size: xx-large;
+  color: green;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* menu */
+nav ul{
+  text-align: center;
+}
+
+nav ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul li.selected a {
+  color: gold;
+ }
+
+nav ul li {
+  display: inline-block;
+  background-color: green;
+  height:22px;
+  width:100px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  border-color: white;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+nav ul li:hover{
+  background-color: white;
+  border-color: green;
+}
+
+nav a:hover {
+  color: green;
+  background-color: white;
+}
+
+/* lijstje */
+
+ul li{
+  color:green;
+}
+
+/*body */
+
+#sectie{
+  background-color: white;
+  padding 5px;
+}
+
+.container {
+  border: 3px solid lightblue;
+  border-radius: 15px;
+  margin:0 30px 0 10%;
+  max-width: 80%;
+  height: 500px;
+  background-color:rgba(255,215,0,.5);
+  overflow: scroll;
+}
+
+.container-een {
+  border: 3px solid gold;
+  border-radius: 15px;
+  margin:0 30px 0 10%;
+  max-width: 80%;
+  background-color: lightblue;
+}
+
+.container-twee {
+  border: 3px solid lightblue;
+  border-radius: 15px;
+  margin:0 30px 0 10%;
+  max-width: 80%;
+  height: 500px;
+  background-color:rgba(255,215,0,.5);
+  text-align: center;
+}
+
+  .container-foto {
+    height: 300px;
+    margin: 20px 40px 20px 20px;
+    float: left;
+  }
+
+  .container-tekst {
+    display: inline;
+    color: green;
+  }
+
+/* formulier */
+  .knop{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    height:50px;
+    width:100px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 15px;
+  }
+  .knop:hover{
+    background-color: white;
+    color: green;
+    border-color: green;
+    transition: 0.7s;
+  }
+
+  .knop:active{
+    background-color: gold;
+    color: white;
+    border-color: white;
+  }
+
+  .knop:focus{
+    background-color: gold;
+    color: white;
+    border-color: white;
+  }
+
+/* id's */
+
+  #figcaption{
+    color: green;
+    font-size: 10px;
+    padding:0 0 0 25px;
+    font-style: italic;
+    position: absolute;
+  }
+
+  #eentwee{
+    float: left;
+  }
+
+  #eendrie{
+    color: darkgreen;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+  }
+
+  #tweetwee{
+    vertical-align: text-top;
+    padding-left: 15px;
+  }
+
+/* classes */
+
+  .broodtekst{
+    color: darkgreen;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .broodtekst-vijftien{
+    color: darkgreen;
+    font-size: 15px;
+    text-align: center;
+  }
+
+.een{
+  color:gold;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.vww{
+  float: left;
+}
